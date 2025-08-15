@@ -1,3 +1,5 @@
+package Arrays;
+class LeftRotateAnArrayKtimes{
 static void reverse(int[]nums,int x,int y){
        
         while(x<=y){
@@ -9,7 +11,7 @@ static void reverse(int[]nums,int x,int y){
             y--;
         }
     }
-    public void rotate(int[] nums, int k) {
+  static public void rotate(int[] nums, int k) {
         int n=nums.length;
         k=k%n;
         reverse(nums,0,n-1);
