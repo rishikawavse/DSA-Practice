@@ -1,4 +1,5 @@
-class Solution {
+package Arrays;
+class FindDuplicate{
     public int findDuplicate(int[] nums) {
       //start  afast and slow pointer until they meet
         int fast=0;

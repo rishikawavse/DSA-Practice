@@ -1,4 +1,5 @@
-class Solution{
+package  Arrays;
+class findMissingNumber {
 public static int missingNumber(int []a, int N) {
 
         //Summation of first N numbers:
